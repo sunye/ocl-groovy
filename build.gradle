@@ -1,0 +1,25 @@
+group 'org.atlanmod.ocl'
+version '1.0-SNAPSHOT'
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    version = '1.0-SNAPSHOT'
+    apply plugin: 'groovy'
+    dependencies {
+        implementation 'org.codehaus.groovy:groovy-all:2.3.11'
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+rootProject.name = 'ocl-groovy'
+include 'ocl-api'
+include 'ocl-core'
+
